@@ -14,7 +14,9 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="이메일 양식으로 입력"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +25,21 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="비밀번호 입력"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="사용할 닉네임 입력(한글가능)"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"/>
 
 
 </LinearLayout>
